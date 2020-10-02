@@ -8,6 +8,8 @@
         justify-content: space-between;
         align-items: center;
 
+        // Блок выбора города
+
         .cities-block {
             display: flex;
             justify-content: space-between;
@@ -17,6 +19,8 @@
                 margin-right: 8px;
             }
         }
+
+        // Навигация
 
         .nav {
             &__link {

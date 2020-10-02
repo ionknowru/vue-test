@@ -2,9 +2,7 @@
   <div id="app">
     <div class="wrapper">
       <Header />
-      <div class="content">
-        <SubHeader />
-      </div>
+      <SubHeader />
     </div>
   </div>
 </template>
@@ -12,6 +10,8 @@
 <script>
 import Header from './components/Header.vue';
 import SubHeader from './components/SubHeader';
+
+import './scss/app.scss';
 
 export default {
   name: 'App',
@@ -21,7 +21,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-
-</style>

@@ -4,8 +4,6 @@
 @import './components/Header.scss';
 @import './components/SubHeader.scss';
 
-// 1280px - container | 85 mt mr
-
 * {
     margin: 0;
     padding: 0;
@@ -24,53 +22,4 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 85px;
-}
-
-.button {
-    position: relative;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 10px 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    color: $add-text-color;
-    cursor: pointer;
-
-    img {
-        margin-right: 8px;
-    }
-
-    span {
-        position: relative;
-        width: 10px;
-        height: 10px;
-        background: $primary-color;
-        position: absolute;
-        top: 6px;
-        left: 27px;
-
-        figure {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 5px;
-            height: 5px;
-            background: red;
-            border-radius: 100%;
-        }
-    }
-
-    &-primary {
-        background: $add-color;
-    }
-
-    &-add {
-        background: #FAFBFC;
-        border: 1px solid $boder-color;
-    }
 }
