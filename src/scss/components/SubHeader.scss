@@ -1,0 +1,58 @@
+.subHeader {
+    padding: 14px 0;
+    border-bottom: 1px solid $boder-color;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .search-block {
+            position: relative;
+
+            input {
+                font-size: 14px;
+                font-weight: 400;
+                color: $text-color;
+                padding: 14px 8px;
+                width: 526px;
+                border: 1px solid $boder-color;
+                border-radius: 4px;
+                outline: none;
+
+                &::placeholder {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: $text-color;
+                }
+            }
+
+            svg {
+                position: absolute;
+                top: 25%;
+                right: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .profile-block {
+            position: relative;
+            width: 40px;
+            height: 40px;
+            background: #9B51E0;
+            border-radius: 100%;
+            cursor: pointer;
+
+            p {
+                position: absolute;
+                top: 46%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 14px;
+                font-weight: 600;
+                color: $primary-color;
+                text-align: center;
+            }
+        }
+    }
+}
